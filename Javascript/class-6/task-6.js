@@ -117,12 +117,55 @@
 
 //ans:-
     
-let num=1;
-for(let i=1;i<=5;i++){
-  for(let j=1;j<=i;j++){
-    process.stdout.write(num + " "); 
-    num++;
-  }
+// let num=1;
+// for(let i=1;i<=5;i++){
+//   for(let j=1;j<=i;j++){
+//     process.stdout.write(num + " "); 
+//     num++;
+//   }
  
-  console.log()
+//   console.log()
+// }
+
+
+
+// part-2(Question - answer)
+// - Q1. Write a program that calculates the sum of all digits of a given number using a loop.
+//ans:-
+
+// let num=9876;
+// let sum=0;
+// while(num>0){
+//   let rem = num % 10;
+//   sum += rem;
+//   num =Math.floor(num / 10); 
+// }
+// console.log("The sum of the number is : " ,sum)
+
+
+
+// - Q2. Print the Fibonacci series up to a given number of terms.
+//ans:-
+
+// let n=10;
+// let a = 1;
+// let b = 2;
+
+// for (let i = 1; i <= n; i++) {
+//   console.log(a); 
+
+//   let nextTerm = a + b; 
+//   a = b; 
+//   b = nextTerm; 
+// }
+
+
+// - Q3. Write a program that prints the multiplication table of a number using a for loop.
+//ans:-
+
+let num=5;
+for(let i=1 ; i<=num; i++);
+{
+  let result = i*num;
 }
+ console.log(`${num} x ${i} = ${result}`);
