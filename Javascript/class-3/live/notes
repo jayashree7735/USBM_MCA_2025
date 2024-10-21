@@ -1,0 +1,11 @@
+//const.readline =require("readline"); //this line represent the importing of readline module
+
+const { Readline } = require("readline/promises");
+
+const r1=Readline.createInterface({ // The readline.createInterface() method creates a new readline.Interface instance.
+
+  input: process.stdin,//for reading input from user
+  output: process.stdout,//for showing output in terminal
+});
+
+        r1.question('what is your name?',(name)=>{console.log('hye,${khushi}')});
