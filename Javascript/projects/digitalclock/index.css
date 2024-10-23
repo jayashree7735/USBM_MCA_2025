@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a7a965;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    font-size: 48px;
+    color: #021014;
+    background-color: #93a39d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(16, 165, 11, 0.5);
+}
