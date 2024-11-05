@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size:16px ;
+}
+
+main{
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 10px;
+  /* box-shadow: rgb(164, 10, 130); */
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 200px;
+  background-color: rgb(77, 62, 192);
+}
+
+nav{
+    display: flex;
+    border-bottom:2px solid ;
+    justify-content: space-evenly;
+    
+}
+
+nav li{
+    list-style: none;
+    font-size: 2rem;
+    
+}
+form{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+    font-size: 100%;
+    
+}
+h2{
+    text-align: center;
+}
+
+#signup{
+    background-color: rgb(61, 61, 129);
+}
