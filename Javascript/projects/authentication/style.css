@@ -46,3 +46,39 @@ h2{
 #signup{
     background-color: rgb(61, 61, 129);
 }
+
+div{
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 10px;
+    /* box-shadow: rgb(164, 10, 130); */
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    background-color: rgb(77, 62, 192);
+}
+form2{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+    font-size: 100%;
+    
+}
+#login{
+    background-color: rgb(61, 61, 129);
+}
+
+#dashboard{
+    max-width: 300px;
+    background-color: rgb(75, 39, 141);
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.2rem;
+
+}
+#dashboard button:hover{
+    cursor: pointer;
+}
